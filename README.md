@@ -1,27 +1,22 @@
 # Python DSA Practice
 
-This repository contains my Python practice programs for Data Structures, Algorithms, Arrays, and Strings.
+## Topics Covered
+- Arrays
+- Strings
+- Sorting
+- Number Theory
+- Pattern Problems
 
-## Folder Structure
+## Language
+Python
 
-### Arrays
+## Problems Solved
 - Two Sum
 - Largest Element
+- Missing Number
+- Move Zeroes to End
 - Remove Duplicates
-- Sum of Array Elements
-- Merge Two Arrays
-
-### Strings
-- Reverse String
-- Count Vowels
-- Palindrome Check
+- Second Largest Element
 - Frequency Count
-- String Length
-
-## Technologies Used
-- Python
-- PyCharm
-- Git & GitHub
-
-## Purpose
-This repository is created to improve problem-solving skills and strengthen Python programming concepts for coding interviews and placements.
+- Palindrome Number
+- Prime Number
