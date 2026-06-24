@@ -16,13 +16,21 @@
 #result = obj.twosum([2,7,11,15], 9) - Call function
 
 
-class solution:
-    def twosum(self, nums, target):
-        for i in range(len(nums)):
-            for j in range(i+1, len(nums)):
-                if nums[i]+nums[j]==target:
-                    return [i,j]
-obj=solution()
-result=obj.twosum([2,7,11,15], 9)
-print(result)
-                
+#class solution:
+    #def twosum(self, nums, target):
+       # for i in range(len(nums)):
+           # for j in range(i+1, len(nums)):
+              #  if nums[i]+nums[j]==target:
+                 #   return [i,j]
+#obj=solution()
+#result=obj.twosum([2,7,11,15], 9)
+#print(result)
+
+arr = list(map(int,input("Enter: ").split()))
+target = int(input("Enter:"))
+for i in range(len(arr)):
+    for j in range(i + 1, len(arr)):
+        if arr[i] + arr[j] == target:
+            target+=1
+            print([i, j])
+            break
