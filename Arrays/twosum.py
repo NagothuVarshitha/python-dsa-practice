@@ -29,7 +29,7 @@
 arr = list(map(int,input("Enter: ").split()))
 target = int(input("Enter:"))
 for i in range(len(arr)):
-    for j in range(i + 1, len(arr)):
+    for j in range(i + 1, len(arr)):    #((i+1,len(arr))-->From the current element, only check the elements after it.
         if arr[i] + arr[j] == target:
             target+=1
             print([i, j])
