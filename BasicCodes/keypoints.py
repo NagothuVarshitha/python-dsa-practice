@@ -16,8 +16,12 @@ When you want to see each step.
 No, because Python doesn't allow a list inside a set in the first place.
 A list cannot be stored inside a set because lists are mutable and unhashable.
 Attempting to create such a set raises a TypeError, so there is no list to modify.
-✅
-✅
+✅for i in n: Use this when you only need the values.
+here "i" is the element.
+(Ex: Find maximum,Find min,Sum of elements,Count even numbers)
+✅for i in range(len(n)): Use this when you need the index.
+here "i" is the index.
+Ex: Change an element,Compare neighboring elements,Two-pointer problems,Access n[i+1], n[i-1], etc
 ✅
 ✅
 ✅
