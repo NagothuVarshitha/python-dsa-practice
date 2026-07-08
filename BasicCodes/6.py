@@ -4,5 +4,5 @@ maxi=n[0]       #n[0]:This works for positive, negative, and mixed numbers.
 for i in n:
     if i>maxi:
         maxi=i
-print("Maximum",maxi)
+print("Greatest Number",maxi)
 
