@@ -19,3 +19,40 @@ s=list(map(int,input()).split())
                               found its matching closing bracket, so the string is valid."""
 
 
+
+def isValid(s):
+
+    stack = []
+
+    pairs = {
+        ")": "(",
+        "]": "[",
+        "}": "{"
+    }
+
+    for ch in s:
+
+        if ch in "([{":
+
+            # Store every opening bracket.
+            # We don't know when it will be closed.
+            stack.append(ch)
+
+        else:
+
+            # If stack is empty, or top doesn't match
+            if not stack or stack[-1] != pairs[ch]:
+                return False
+
+            # Brackets matched.
+            # Remove the opening bracket.
+            stack.pop()
+
+    # If stack becomes empty,
+    # every opening bracket got matched.
+    return not stack
+
+
+s = input("Enter brackets: ")
+
+print(isValid(s))
