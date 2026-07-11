@@ -21,11 +21,13 @@ here "i" is the element.
 (Ex: Find maximum,Find min,Sum of elements,Count even numbers)
 ✅for i in range(len(n)): Use this when you need the index.
 here "i" is the index.
-Ex: Change an element,Compare neighboring elements,Two-pointer problems,Access n[i+1], n[i-1], etc
-✅
-✅
-✅
-
+Ex: Change an element,Compare neighboring elements,Two-pointer problems,Access n[i+1], n[i-1]...etc
+✅Two Sum(Hash Map): Whenever asked to find a pair quickly → Think Hash Map.
+✅Sorted array, Remove Duplicates(Two Pointers):Whenever the array is sorted and duplicates
+ need to be removed → Think Two Pointers.
+✅Matching brackets,Undo,Nested structure(Stack): when they ask Need most recent element
+✅Whenever you only need values/characters---for ch in s
+    Whenever you only need index.---for i in range(len(s))
 ✅
 ✅
 ✅
