@@ -48,11 +48,3 @@ def isValid(s):
             # Remove the opening bracket.
             stack.pop()
 
-    # If stack becomes empty,
-    # every opening bracket got matched.
-    return not stack
-
-
-s = input("Enter brackets: ")
-
-print(isValid(s))
