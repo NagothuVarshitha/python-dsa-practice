@@ -34,5 +34,24 @@ for i in range(1, n + 1) → Continue until i reaches n.
 •  Multiply by 10 → Creates an empty place on the right.
 •  Add the digit → Fills that empty place.
 ✅
-
+✅
+✅
+✅
+✅
+✅
+✅
+✅
+✅
+✅
+✅
+✅
+✅
+✅
+✅
+✅
+✅
+✅
+✅
+✅
+✅
 """
