@@ -30,7 +30,10 @@ Ex: Change an element,Compare neighboring elements,Two-pointer problems,Access n
     Whenever you only need index.---for i in range(len(s))
 ✅while n > 0 → Continue until no digits are left.
 for i in range(1, n + 1) → Continue until i reaches n.
-✅
+✅reverse = reverse * 10 + digit
+•  Multiply by 10 → Creates an empty place on the right.
+•  Add the digit → Fills that empty place.
+
 ✅
 
 """
