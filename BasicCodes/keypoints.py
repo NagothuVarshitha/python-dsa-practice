@@ -28,7 +28,8 @@ Ex: Change an element,Compare neighboring elements,Two-pointer problems,Access n
 ✅Matching brackets,Undo,Nested structure(Stack): when they ask Need most recent element
 ✅Whenever you only need values/characters---for ch in s
     Whenever you only need index.---for i in range(len(s))
-✅
+✅while n > 0 → Continue until no digits are left.
+for i in range(1, n + 1) → Continue until i reaches n.
 ✅
 ✅
 
