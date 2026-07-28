@@ -33,10 +33,14 @@ for i in range(1, n + 1) → Continue until i reaches n.
 ✅reverse = reverse * 10 + digit
 •  Multiply by 10 → Creates an empty place on the right.
 •  Add the digit → Fills that empty place.
-✅
-✅
-✅
-✅
+✅Am I removing digits?-n = n // 10
+Then use---while n > 0: instead of ---for i in range(...)
+✅Will I need the original number later?---temp = n
+Ex:Palindrome ✔
+Armstrong ✔
+Reverse ✔
+✅digit = len(str(n)) -- counts digits in a num
+✅Am I calculating a result?----sum = 0(Then create a separate variable)
 ✅
 ✅
 ✅
