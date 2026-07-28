@@ -41,7 +41,7 @@ Armstrong ✔
 Reverse ✔
 ✅digit = len(str(n)) -- counts digits in a num
 ✅Am I calculating a result?----sum = 0(Then create a separate variable)
-✅
+✅reverse = reverse * 10 + rem----because we are making another number(reverse of the given number)
 ✅
 ✅
 ✅
