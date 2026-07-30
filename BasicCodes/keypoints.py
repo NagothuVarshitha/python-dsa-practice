@@ -33,8 +33,10 @@ for i in range(1, n + 1) → Continue until i reaches n.
 ✅reverse = reverse * 10 + digit
 •  Multiply by 10 → Creates an empty place on the right.
 •  Add the digit → Fills that empty place.
-✅Am I removing digits?-n = n // 10
+✅Am I removing digits?-n = n // 10 (we use this 2 line removing and getting last digit only for digits prblm)
 Then use---while n > 0: instead of ---for i in range(...)
+✅Digits → while
+Known range of numbers → for
 ✅Will I need the original number later?---temp = n
 Ex:Palindrome ✔
 Armstrong ✔
@@ -59,3 +61,4 @@ Reverse ✔
 ✅
 ✅
 """
+
