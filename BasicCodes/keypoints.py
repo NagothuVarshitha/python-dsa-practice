@@ -44,8 +44,12 @@ Reverse ✔
 ✅digit = len(str(n)) -- counts digits in a num
 ✅Am I calculating a result?----sum = 0(Then create a separate variable)
 ✅reverse = reverse * 10 + rem----because we are making another number(reverse of the given number)
-✅
-✅
+✅How do we get the last 2 digits?--625%100
+✅"Give me the last N digits."--number % (10 ** N)
+Ex:number % 10        # Last 1 digit
+number % 100       # Last 2 digits
+number % 1000      # Last 3 digits
+number % (10**N)   # Last N digits
 ✅
 ✅
 ✅
