@@ -50,7 +50,14 @@ Ex:number % 10        # Last 1 digit
 number % 100       # Last 2 digits
 number % 1000      # Last 3 digits
 number % (10**N)   # Last N digits
-✅
+✅The variable used in the while condition should usually be the same variable that is updated inside the loop.
+Condition variable = Update variable ✅
+while i <= n: (condition)
+    i += 1    (update)
+while n > 0:    (condition)
+    n = n // 10 (update)
+while count > 0:    (condition)
+    count -= 1  (update)
 ✅
 ✅
 ✅
