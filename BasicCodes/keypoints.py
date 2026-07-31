@@ -58,7 +58,9 @@ while n > 0:    (condition)
     n = n // 10 (update)
 while count > 0:    (condition)
     count -= 1  (update)
-✅
+✅Question says Contains, Immediately think--n
+            Starts with,--startswith()
+            Ends with,--endswith()
 ✅
 ✅
 ✅
