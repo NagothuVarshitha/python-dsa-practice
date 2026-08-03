@@ -61,10 +61,23 @@ while count > 0:    (condition)
 ✅Question says Contains, Immediately think--n
             Starts with,--startswith()
             Ends with,--endswith()
-✅
-✅
-✅
-✅
+✅Repeatedly replacing the number...or repeatedly
+until
+keep doing
+again and again---then we need another loop
+✅Whenever you don't know how many times something repeats, use: while
+✅Before writing any code, ask yourself these 5 questions
+--what am I processing?
+Digits / Factors / Range / String?
+--What operation should I perform on each item?
+Add? Square? Factorial? Reverse?
+--Am I done after one pass?
+Yes → One loop.
+No → Repeated process → Another loop.
+--What is the stopping condition?
+n == 0? n == 1? count == digits? i <= n?
+--What should I compare at the end?
+Original number? 1? Reverse? Sum?
 ✅
 ✅
 ✅
