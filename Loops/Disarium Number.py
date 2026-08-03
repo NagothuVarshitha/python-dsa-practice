@@ -9,13 +9,12 @@ Positions are:1 2 3
 n=int(input("Enter the number:"))
 temp=n
 sum=0
-digits=0
-pos=len(str(n))
+pos=len(str(n)) # Find the number of digits
 while n>0:
     rem=n%10
-    digits=digits**pos
-    sum=sum+rem
+    sum=sum+(rem**pos)  # Raise the digit to its correct position
     n=n//10
+    pos=pos-1   # Position becomes one less
 if temp==sum:
     print("Disarium Number")
 else:
