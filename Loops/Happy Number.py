@@ -15,7 +15,7 @@ while n!=1: # Repeat until the number becomes 1
         rem=temp%10
         sum=sum+rem**2
         temp=temp//10
-    if sum==4:  # If the number becomes 4, it will keep repeating forever(proof:If a number is not happy,Every unhappy number eventually reaches 4, then loops forever.)
+    if sum==4:  # If the number becomes 4, it will keep repeating forever(proof:If a number is not happy,Every unhappy number eventually reaches 4, then loops forever.)"
         print("Not Happy Number")
         break
     n=sum    # Replace n with the new sum
