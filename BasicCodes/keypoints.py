@@ -78,8 +78,8 @@ No → Repeated process → Another loop.
 n == 0? n == 1? count == digits? i <= n?
 --What should I compare at the end?
 Original number? 1? Reverse? Sum?
-✅
-✅
+✅HCF--The number is being divided by i. (if n1%2==0 and n2%2==0)
+✅LCM-current number (lcm) is being divided by n1.(if lcm%n1==0 and lcm%n2==0)
 ✅
 ✅
 ✅
