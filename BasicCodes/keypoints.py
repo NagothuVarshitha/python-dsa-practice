@@ -85,6 +85,5 @@ Original number? 1? Reverse? Sum?
 ✅
 ✅
 ✅
-✅
 """
 
