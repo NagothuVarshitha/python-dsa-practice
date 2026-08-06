@@ -80,8 +80,14 @@ n == 0? n == 1? count == digits? i <= n?
 Original number? 1? Reverse? Sum?
 ✅HCF--The number is being divided by i. (if n1%2==0 and n2%2==0)
 ✅LCM-current number (lcm) is being divided by n1.(if lcm%n1==0 and lcm%n2==0)
-✅
-✅
+✅Diff b/w reverse and rotation
+reverse-->197---791
+rotation-->Move the first digit to the last.
+(Trick:If a number has n digits, then it has n rotations.)
+197-->971-->719------->rotation=3
+✅for 197--->num[1:] + num[0]
+"97" + "1"-->"971"
+because strings are joined together (concatenated).
 ✅
 ✅
 ✅
