@@ -88,7 +88,10 @@ rotation-->Move the first digit to the last.
 ✅for 197--->num[1:] + num[0]
 "97" + "1"-->"971"
 because strings are joined together (concatenated).
-✅
+✅When should we use a flag?
+Are ALL rotations prime? we dont know so we assume flag =
+use only If the question asks only YES / NO type
+If the question asks you to largest/smallest,count, don't use a flag.
 ✅
 ✅
 """
