@@ -19,7 +19,7 @@ for i in range(len(temp)):  # Repeat as many times as there are digits
     if count!=2:     # If any rotation is not Prime
         flag=False
         break
-    temp=temp[1:]+temp[0]   # Rotate the number,Move the first digit to the last
+    temp=temp[1:]+ temp[0]   # Rotate the number,Move the first digit to the last
 if flag:    # Print the result
     print("Circular Prime Number")
 else:
