@@ -94,5 +94,29 @@ use only If the question asks only YES / NO type
 If the question asks you to largest/smallest,count, don't use a flag.
 ✅
 ✅
+✅
+✅
+✅
+
+✅
+✅
+✅
+✅
+✅
+✅
+✅
+✅
+✅
+✅
+✅
+✅
+✅
+✅
+✅
+✅
+✅
+✅
+✅
+
 """
 
