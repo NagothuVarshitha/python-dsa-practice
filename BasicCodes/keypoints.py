@@ -1,4 +1,5 @@
 """
+###LOOPS###
 ✅ Print outside the loop
 When you need the final result.
 ✅ Print inside the loop
@@ -92,7 +93,12 @@ because strings are joined together (concatenated).
 Are ALL rotations prime? we dont know so we assume flag =
 use only If the question asks only YES / NO type
 If the question asks you to largest/smallest,count, don't use a flag.
-✅
+
+
+
+####PATTERNS####
+✅Outer loop → HOW MANY ROWS?
+Inner loop → HOW MANY THINGS IN EACH ROW?
 ✅
 ✅
 ✅
