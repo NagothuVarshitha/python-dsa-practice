@@ -97,12 +97,13 @@ If the question asks you to largest/smallest,count, don't use a flag.
 
 
 ####PATTERNS####
-✅Outer loop → HOW MANY ROWS?
-Inner loop → HOW MANY THINGS IN EACH ROW?
+✅i--Outer loop → HOW MANY ROWS?
+  j--Inner loop → HOW MANY THINGS IN EACH ROW?
+  k → stores the actual number to print
 ✅how can we convert a number like 1, 2, 3, 4 into A, B, C, D in Python?
-ord() → character → number
-chr() → number → character
-✅isalpha() → "Is this alphabet?"
+  ord() → character → number
+  chr() → number → character
+✅isalpha() →To check  "Is this alphabet?"
 ✅
 ✅
 ✅
