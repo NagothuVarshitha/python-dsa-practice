@@ -104,7 +104,13 @@ If the question asks you to largest/smallest,count, don't use a flag.
   ord() → character → number
   chr() → number → character
 ✅isalpha() →To check  "Is this alphabet?"
-✅
+✅Pyramids
+    EX:Spaces → decrease
+       Stars  → increase
+    You'll need 3 loops(1 outer, 2 inner):
+        loop for rows--->i
+        loop for spaces-->j
+        loop for stars--->j
 ✅
 ✅
 ✅
