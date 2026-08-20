@@ -5,7 +5,7 @@
 * * * * * * *
  * * * * *
   * * *
-   *
+   *                (n=4)
    Top: Spaces = n - i
         Stars  = 2*i - 1
    Bottom: Spaces = i
